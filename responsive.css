@@ -1,0 +1,822 @@
+@media only screen and (max-width: 600px) {
+
+
+    .mousefollower {
+
+        display: none;
+    }
+
+    .main {
+
+        overflow-x: hidden;
+        /* background-color: aqua; */
+    }
+
+    .mainvid {
+        width: 90%;
+        height: 220px;
+        /* background-color: #4E9CE4; */
+        border-radius: 20px;
+        position: absolute;
+        position: fixed;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        z-index: 1000000;
+        /* display: none; */
+        top: -100%;
+        transition: 0.5s;
+        box-shadow: 4px 4px 10px 6px rgba(0, 0, 0, 0.308);
+
+        /* overflow: hidden; */
+    }
+
+    /* .navbar i{
+
+        display: block;
+    } */
+
+    
+    .menuicon{
+
+        display: block;
+    }
+    
+    .menuicon i{
+        
+        display: block;
+        position: relative;
+        z-index: 99999;
+    }
+
+    .navbar {
+
+        padding: 0 15px;
+        position: fixed;
+    }
+
+    .navitems {
+
+        display: none;
+    }
+    
+
+    .navitems ul li:hover {
+
+        color: #000000;
+    }
+
+    .circle{
+
+        display: block;
+    }
+
+    /*  _____________ NAVBAR END _____________ */
+
+    .herotxt {
+
+        /* background-color:#FEDE89; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .herotxt h1 {
+
+        font-size: 27px;
+        line-height: 37px;
+    }
+
+    .herotxt p {
+
+        font-size: 1.09rem;
+        /* background-color: #3742AD; */
+        width: 77%;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .herotxt #watchbtn {
+
+        margin-top: -23px;
+    }
+
+    .herovid video {
+
+        width: 100%;
+    }
+
+    .hero-badges {
+
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 30px;
+        background-color: white;
+    }
+
+    .hero-badges img {
+        width: 200px;
+        opacity: 1;
+    }
+
+    /* _____________ HERO END _________ */
+
+    .ipad-mobile-txt {
+
+        /* background-color:rgb(170, 255, 0); */
+        /* height: 300px; */
+        padding-top: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ipad-mobile-txt h1 {
+
+        font-size: 1.5rem;
+    }
+
+    .ipad-mobile-txt p {
+
+        font-size: 1.1rem;
+        width: 80%;
+        /* background-color: #FEDE89; */
+        margin-top: 30px;
+    }
+
+    .ipad-mobile {
+
+        width: 100%;
+        display: block;
+
+    }
+
+    .ipad-mobile-left {
+
+        width: 100%;
+        height: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ipad {
+
+        width: 22rem;
+        height: 17rem;
+    }
+
+    .ipad-mobile-left img {
+
+        width: 6.25rem;
+        bottom: 0px;
+        right: 8px;
+    }
+
+    .ipad-mobile-right {
+
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ipad-mobile-right p {
+
+        font-size: 1.13rem;
+        width: 92%;
+        /* background-color:aqua; */
+    }
+
+    .ipad-mobile-right button {
+
+
+        margin-top: 40px;
+    }
+
+    /* ___________ IPAD END _________ */
+
+    .discover-umake {
+
+        width: 100%;
+        height: fit-content;
+        /* background-color:blue; */
+        padding: 130px 0px 100px 0px;
+    }
+
+    .discover-umake h1 {
+
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .discover-cards {
+
+        width: 100%;
+        height: fit-content;
+        /* background-color: rgb(34, 255, 0); */
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .card1 h2 {
+
+        font-size: 25px;
+    }
+
+    /* ___________ DISCOVER UMAKE END ______ */
+
+
+    .all-tools {
+
+        padding-bottom: 70px;
+    }
+
+    .all-tools-txt {
+
+        padding: 50px 10px 100px 10px;
+        /* background-color: rgb(255, 0, 111); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all-tools-txt h1 {
+
+        font-size: 2.3rem;
+    }
+
+    .all-tools-txt p {
+
+        font-size: 1.1rem;
+        width: 90%;
+        line-height: 28px;
+        margin-top: 40px;
+    }
+
+    .all-tools-tool1,
+    .all-tools-tool2,
+    .all-tools-tool3 {
+
+        width: 100%;
+        height: 50rem;
+        /* background-color: rgb(34, 255, 0); */
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .tool1-left {
+
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .tool-ipad {
+
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .tool1-right {
+
+        width: 100%;
+        height: 65%;
+        /* background-color: palevioletred; */
+        position: relative;
+
+    }
+
+    .tool1-right-toptxt1 {
+
+        display: none;
+    }
+
+    .tool1-right-toptxt2 {
+
+        padding: 13px 15px;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #ffffff;
+        letter-spacing: 1px;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: none;
+    }
+
+    .tool1-right p {
+
+        position: absolute;
+        top: 200px;
+        text-align: center;
+        width: 90%;
+        font-size: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tool1-right button {
+
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slides {
+
+        width: 100%;
+        height: fit-content;
+        /* background-color:#3742AD; */
+        display: block;
+    }
+
+
+    .slide-left {
+
+        width: 100%;
+        height: 100%;
+        /* background-color: #F04419; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 80px;
+    }
+
+    .slide-left h3 {
+
+        font-size: 2.2rem;
+        line-height: 46px;
+    }
+
+    .slide-left p {
+
+        font-size: 1.03rem;
+        width: 60%;
+        margin-top: 33px;
+    }
+
+    .slide-right {
+
+        width: 100%;
+        height: 100%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    .item {
+
+        /* background-color: #3742AD; */
+        width: 100%;
+        height: 550px;
+    }
+
+    .item img {
+
+        transform: scale(0.35);
+        top: -40px;
+    }
+
+    .item .renderimg {
+
+        transform: scale(0.35);
+        top: -80px;
+    }
+
+    .item .markimg {
+
+        transform: scale(0.4);
+        top: -20px;
+    }
+
+    .item .card-slide {
+
+        width: 85%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-slide h3 {
+
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .card-slide p {
+
+        font-size: 1.1rem;
+        width: 97%;
+        text-align: center;
+        margin-top: 25px;
+        line-height: 23px;
+    }
+
+    .share-publish-txt {
+
+        width: 100%;
+        height: 430px;
+        /* background-color: #F04419; */
+        text-align: center;
+        gap: 25px;
+        padding-top: 50px;
+    }
+
+    .share-publish-txt h1 {
+
+        font-size: 10vw;
+    }
+
+    .share-publish-txt p {
+
+        font-size: 5vw;
+        width: 90%;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .share-publish-cards {
+
+
+        padding: 80px 0px 140px 0px;
+    }
+
+    .sp-card {
+
+        width: 90%;
+        height: fit-content;
+        padding: 30px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .sp-card h2 {
+
+        font-size: 27px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .sp-card p {
+
+        font-size: 17px;
+    }
+
+    .boximage {
+
+        bottom: 40px;
+        right: 10px;
+        width: 130px;
+    }
+
+    .ballimage {
+
+        width: 50px;
+        top: 20px;
+        left: 30px;
+    }
+
+    .ballimage1 {
+        display: none;
+    }
+
+    .ballimage2 {
+
+        display: none;
+    }
+
+    .ballimage3 {
+        display: none;
+    }
+
+    .ballimage4 {
+
+        display: none;
+    }
+
+    .ballimage5 {
+
+        display: none;
+    }
+
+    .join-umake {
+
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .join-left {
+
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    .join-right {
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    .join-right h2 {
+
+        font-size: 12vw;
+        letter-spacing: -1px;
+    }
+
+    .join-right p {
+
+        font-size: 5.5vw;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .big-discover-umake-txt {
+
+        width: 100%;
+        height: fit-content;
+        /* background-color: #FEDE89; */
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .big-discover-umake-txt h1 {
+
+        font-size: 12.5vw;
+    }
+
+    .big-discover-umake-cards {
+
+        width: 100%;
+        /* height: calc(100% - 180px); */
+        /* background-color: #F8F8FE; */
+        padding: 0 0px;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .bdu-cards {
+
+        width: 90%;
+        height: 360px;
+        background-color: #ffffff;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .bdu-cards h3 {
+
+        font-size: 9vw;
+        margin-top: 15px;
+    }
+
+    .bdu-cards h3 span {
+
+        font-size: 17px;
+    }
+
+    .txt-moving {
+
+        width: 100%;
+        height: 40vh;
+        /* background-color: #000000; */
+    }
+
+    .txt-moving-txt h1 {
+
+        font-size: 15vw;
+
+    }
+
+
+    .learn-design {
+
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+
+    .learn-design-left {
+        width: 100%;
+        height: 100%;
+        padding: 130px 0 0 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .ld-card-column1,
+    .ld-card-column2 {
+
+        width: 320px;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .ld-card-column2 {
+
+        padding-top: 0px;
+    }
+
+    .learn-design-right {
+        width: 100%;
+        height: 100%;
+        /* background-co00lor: #F04419; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .learn-design-right h1 {
+
+        font-size: 10vw;
+        /* font-weight: 600; */
+        margin-bottom: 30px;
+    }
+
+    .learn-design-right p {
+
+        font-size: 5.5vw;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .download-umake {
+
+        width: 100%;
+        height: 70vh;
+        /* background-color: #F04419; */
+        padding: 0px 0px;
+    }
+
+    .dum-inner {
+
+        width: 95%;
+        height: 60%;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dum-inner h1 {
+
+        font-size: 9.5vw;
+        line-height: 50px;
+    }
+
+    .dum-inner button {
+
+        width: 180px;
+        height: 60px;
+        font-size: 19px;
+    }
+
+    .dum-inner img {
+
+        right: 240px;
+        bottom: -20px;
+        width: 90px;
+        /* background-color: #F04419; */
+    }
+
+    .dum-inner .ball {
+
+        right: 20px;
+        bottom: 20px;
+        width: 40px;
+    }
+
+
+    .dum-inner .ball2 {
+
+        left: 10px;
+        top: 5px;
+        width: 60px;
+
+    }
+
+    .footer {
+
+        width: 100%;
+        height: fit-content;
+        /* background-color: aqua; */
+        padding: 0 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        position: relative;
+        padding-bottom: 100px;
+    }
+
+    .footer .footlogo {
+
+        width: fit-content;
+        height: 100%;
+        /* background-color: #F04419; */
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+        /* border-top: 1px solid rgba(0, 0, 0, 0.417); */
+    }
+
+    .products {
+
+        width: fit-content;
+        height: 100%;
+        /* background-color: #FEDE89; */
+        padding-top: 50px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .products p {
+
+        font-size: 9.5vw;
+        color: rgba(0, 0, 0, 0.74);
+    }
+
+    .products h4 {
+
+        font-size: 5.5vw;
+        margin-bottom: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .footlogo p:nth-last-child(2) {
+
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+        color: black;
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .footlogo p:nth-last-child(1) {
+
+        color: rgba(0, 0, 0, 0.425);
+        font-size: 14px;
+        margin-top: 15px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 30px;
+
+    }
+
+}
